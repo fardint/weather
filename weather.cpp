@@ -5,12 +5,16 @@
 const std::string DATA_FILE = "./data/rainfall_data.json";
 
 void showMenu() {
-    std::cout << "\nRainfall Manager:\n";
+    std::cout << R"(
+_____________ (RAINFALL MANAGEMENT) By FARDIN TURKMEN _____________
+)" << "\n";
+
     std::cout << "1. Add Entry\n";
     std::cout << "2. Show Entry\n";
     std::cout << "99. Exit\n";
     std::cout << "Choose an option: ";
 }
+
 
 int main() {
     int choice;
