@@ -1,12 +1,17 @@
-﻿[
-  {
-    "year": 1390,
-    "month": 1,
-    "rainfall": 20.5
-  },
-  {
-    "year": 1390,
-    "month": 2,
-    "rainfall": 15.0
-  }
+[
+    {
+        "month": 1,
+        "rainfall": 20.5,
+        "year": 1390
+    },
+    {
+        "month": 2,
+        "rainfall": 3.0,
+        "year": 1390
+    },
+    {
+        "month": 3,
+        "rainfall": 3.55,
+        "year": 1390
+    }
 ]

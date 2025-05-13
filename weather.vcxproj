@@ -154,7 +154,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="functions\add_entry.cpp" />
     <ClCompile Include="weather.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\rainfall_data.json" />
+    <Content Include="project.txt" />
+    <Content Include="README.md" />
+    <Content Include="weather\x64\Debug\vc143.idb" />
+    <Content Include="weather\x64\Debug\vc143.pdb" />
+    <Content Include="weather\x64\Debug\weather.exe.recipe" />
+    <Content Include="weather\x64\Debug\weather.ilk" />
+    <Content Include="weather\x64\Debug\weather.obj" />
+    <Content Include="weather\x64\Debug\weather.tlog\CL.command.1.tlog" />
+    <Content Include="weather\x64\Debug\weather.tlog\Cl.items.tlog" />
+    <Content Include="weather\x64\Debug\weather.tlog\CL.read.1.tlog" />
+    <Content Include="weather\x64\Debug\weather.tlog\CL.write.1.tlog" />
+    <Content Include="weather\x64\Debug\weather.tlog\link.command.1.tlog" />
+    <Content Include="weather\x64\Debug\weather.tlog\link.read.1.tlog" />
+    <Content Include="weather\x64\Debug\weather.tlog\link.secondary.1.tlog" />
+    <Content Include="weather\x64\Debug\weather.tlog\link.write.1.tlog" />
+    <Content Include="weather\x64\Debug\weather.tlog\weather.lastbuildstate" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="functions\add_entry.hpp" />
+    <ClInclude Include="include\json.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

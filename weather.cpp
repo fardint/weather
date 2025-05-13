@@ -1,42 +1,30 @@
-#include<iostream>
-#include <fstream>
-/* https://github.com/nlohmann/json/releases/latest/download/json.hpp */
-#include "include/json.hpp"
-using namespace std;
+#include <iostream>
+#include "functions/add_entry.hpp"
 
-using json = nlohmann::json;
+const std::string DATA_FILE = "./data/rainfall_data.json";
 
-json readJsonFile(const std::string& filename) {
-    std::ifstream file(filename);
-
-    // Check if file exists or can be opened
-    if (!file.is_open()) {
-        std::cerr << "Warning: Could not open file: " << filename << "\n";
-        return json::array(); // return empty array
-    }
-
-    json data;
-    try {
-        file >> data;  // parse JSON
-    } catch (const std::exception& e) {
-        std::cerr << "Error parsing JSON: " << e.what() << "\n";
-        return json::array();
-    }
-
-    return data;
+void showMenu() {
+    std::cout << "\nRainfall Manager:\n";
+    std::cout << "1. Add Entry\n";
+    std::cout << "2. Exit\n";
+    std::cout << "Choose an option: ";
 }
 
 int main() {
-    json rainfallData = readJsonFile("./data/rainfall_data.json");
+    int choice;
 
-    std::cout << "Loaded " << rainfallData.size() << " entries.\n";
+    while (true) {
+        showMenu();
+        std::cin >> choice;
 
-    for (const auto& record : rainfallData) {
-        std::cout << "Year: " << record["year"]
-                  << ", Month: " << record["month"]
-                  << ", Rainfall: " << record["rainfall"] << " mm\n";
+        if (choice == 1) {
+            addEntry(DATA_FILE);
+        } else if (choice == 2) {
+            break;
+        } else {
+            std::cout << "Invalid option.\n";
+        }
     }
 
     return 0;
 }
-
