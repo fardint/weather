@@ -4,6 +4,7 @@
 #include "functions/show_all.hpp"
 #include "functions/show_year.hpp"
 #include "functions/show_month.hpp"
+#include "functions/show_month_average.hpp"
 #include "functions/show_month_highest.hpp"
 #include "functions/show_month_lowest.hpp"
 #include "functions/show_year_average.hpp"
@@ -25,6 +26,7 @@ void showMenu() {
     std::cout << "8. Show Month With Highest Rain\n";
     std::cout << "9. Show Year With Lowest Rain\n";
     std::cout << "10. Show Year With Highest Rain\n";
+    std::cout << "11. Show Month Average\n";
     std::cout << "99. Exit\n";
     std::cout << "Choose an option: ";
 }
@@ -57,6 +59,8 @@ int main() {
             showYearLowest(DATA_FILE);
         } else if (choice == 10){
             showYearHighest(DATA_FILE);
+        } else if (choice == 11){
+            showMonthAverage(DATA_FILE);
         } else if (choice == 99) {
             break;
         } else {
