@@ -306,7 +306,7 @@
       <SDLCheck>true</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
-    <ClCompile Include="functions\show_mont_lowest.cpp">
+    <ClCompile Include="functions\show_month_lowest.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
