@@ -7,6 +7,7 @@
 #include "functions/show_month_highest.hpp"
 #include "functions/show_month_lowest.hpp"
 #include "functions/show_year_average.hpp"
+#include "functions/show_year_lowest.hpp"
 
 const std::string DATA_FILE = "./data/rainfall_data.json";
 
@@ -21,6 +22,7 @@ void showMenu() {
     std::cout << "6. Show Year Average\n";
     std::cout << "7. Show Month With Lowest Rain\n";
     std::cout << "8. Show Month With Highest Rain\n";
+    std::cout << "9. Show Year With Lowest Rain\n";
     std::cout << "99. Exit\n";
     std::cout << "Choose an option: ";
 }
@@ -49,6 +51,8 @@ int main() {
             showMonthLowest(DATA_FILE);
         } else if (choice == 8){
             showMonthHighest(DATA_FILE);
+        } else if (choice == 9){
+            showYearLowest(DATA_FILE);
         } else if (choice == 99) {
             break;
         } else {

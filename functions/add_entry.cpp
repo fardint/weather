@@ -1,6 +1,4 @@
-﻿// functions/add_entry.cpp
-
-#include <iostream>
+﻿#include <iostream>
 #include <fstream>
 #include "../include/json.hpp"
 #include "add_entry.hpp"
