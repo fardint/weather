@@ -2,7 +2,8 @@ C:\Projects\fatdint\weather\functions\add_entry.cpp;C:\Projects\fatdint\weather\
 C:\Projects\fatdint\weather\functions\show_all.cpp;C:\Projects\fatdint\weather\weather\x64\Debug\show_all.obj
 C:\Projects\fatdint\weather\functions\show_entry.cpp;C:\Projects\fatdint\weather\weather\x64\Debug\show_entry.obj
 C:\Projects\fatdint\weather\functions\show_month.cpp;C:\Projects\fatdint\weather\weather\x64\Debug\show_month.obj
-C:\Projects\fatdint\weather\functions\show_mont_lowest.cpp;C:\Projects\fatdint\weather\weather\x64\Debug\show_mont_lowest.obj
+C:\Projects\fatdint\weather\functions\show_month_highest.cpp;C:\Projects\fatdint\weather\weather\x64\Debug\show_month_highest.obj
+C:\Projects\fatdint\weather\functions\show_month_lowest.cpp;C:\Projects\fatdint\weather\weather\x64\Debug\show_month_lowest.obj
 C:\Projects\fatdint\weather\functions\show_year.cpp;C:\Projects\fatdint\weather\weather\x64\Debug\show_year.obj
 C:\Projects\fatdint\weather\functions\show_year_average.cpp;C:\Projects\fatdint\weather\weather\x64\Debug\show_year_average.obj
 C:\Projects\fatdint\weather\weather.cpp;C:\Projects\fatdint\weather\weather\x64\Debug\weather.obj
