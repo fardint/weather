@@ -4,6 +4,7 @@
 #include "functions/show_all.hpp"
 #include "functions/show_year.hpp"
 #include "functions/show_month.hpp"
+#include "functions/show_year_average.hpp"
 
 const std::string DATA_FILE = "./data/rainfall_data.json";
 
@@ -15,6 +16,7 @@ void showMenu() {
     std::cout << "3. Show All Entries\n";
     std::cout << "4. Show Year\n";
     std::cout << "5. Show Month\n";
+    std::cout << "6. Show Year Average\n";
     std::cout << "99. Exit\n";
     std::cout << "Choose an option: ";
 }
@@ -37,6 +39,8 @@ int main() {
             showYear(DATA_FILE);
         } else if (choice == 5){
             showMonth(DATA_FILE);
+        }  else if (choice == 6){
+            showYearAverage(DATA_FILE);
         } else if (choice == 99) {
             break;
         } else {
