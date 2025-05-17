@@ -231,6 +231,7 @@
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
     <ClCompile Include="functions\show_entry.cpp" />
+    <ClCompile Include="functions\show_year.cpp" />
     <ClCompile Include="weather.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -256,6 +257,7 @@
     <ClInclude Include="functions\add_entry.hpp" />
     <ClInclude Include="functions\show_all.hpp" />
     <ClInclude Include="functions\show_entry.hpp" />
+    <ClInclude Include="functions\show_year.hpp" />
     <ClInclude Include="include\json.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
