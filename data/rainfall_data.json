@@ -11,7 +11,232 @@
     },
     {
         "month": 3,
-        "rainfall": 3.55,
+        "rainfall": 11.5,
         "year": 1390
+    },
+    {
+        "month": 4,
+        "rainfall": 5.2,
+        "year": 1390
+    },
+    {
+        "month": 5,
+        "rainfall": 14.8,
+        "year": 1390
+    },
+    {
+        "month": 6,
+        "rainfall": 19.4,
+        "year": 1390
+    },
+    {
+        "month": 7,
+        "rainfall": 25.6,
+        "year": 1390
+    },
+    {
+        "month": 8,
+        "rainfall": 18.3,
+        "year": 1390
+    },
+    {
+        "month": 9,
+        "rainfall": 10.9,
+        "year": 1390
+    },
+    {
+        "month": 10,
+        "rainfall": 30.3,
+        "year": 1390
+    },
+    {
+        "month": 11,
+        "rainfall": 22.1,
+        "year": 1390
+    },
+    {
+        "month": 12,
+        "rainfall": 15.7,
+        "year": 1390
+    },
+    {
+        "month": 1,
+        "rainfall": 23.2,
+        "year": 1391
+    },
+    {
+        "month": 2,
+        "rainfall": 21.1,
+        "year": 1391
+    },
+    {
+        "month": 3,
+        "rainfall": 13.5,
+        "year": 1391
+    },
+    {
+        "month": 4,
+        "rainfall": 17.4,
+        "year": 1391
+    },
+    {
+        "month": 5,
+        "rainfall": 12.9,
+        "year": 1391
+    },
+    {
+        "month": 6,
+        "rainfall": 8.6,
+        "year": 1391
+    },
+    {
+        "month": 7,
+        "rainfall": 5.0,
+        "year": 1391
+    },
+    {
+        "month": 8,
+        "rainfall": 22.7,
+        "year": 1391
+    },
+    {
+        "month": 9,
+        "rainfall": 19.3,
+        "year": 1391
+    },
+    {
+        "month": 10,
+        "rainfall": 31.8,
+        "year": 1391
+    },
+    {
+        "month": 11,
+        "rainfall": 24.2,
+        "year": 1391
+    },
+    {
+        "month": 12,
+        "rainfall": 11.9,
+        "year": 1391
+    },
+    {
+        "month": 1,
+        "rainfall": 31.4,
+        "year": 1392
+    },
+    {
+        "month": 2,
+        "rainfall": 20.3,
+        "year": 1392
+    },
+    {
+        "month": 3,
+        "rainfall": 14.6,
+        "year": 1392
+    },
+    {
+        "month": 4,
+        "rainfall": 18.5,
+        "year": 1392
+    },
+    {
+        "month": 5,
+        "rainfall": 16.1,
+        "year": 1392
+    },
+    {
+        "month": 6,
+        "rainfall": 9.8,
+        "year": 1392
+    },
+    {
+        "month": 7,
+        "rainfall": 2.4,
+        "year": 1392
+    },
+    {
+        "month": 8,
+        "rainfall": 25.0,
+        "year": 1392
+    },
+    {
+        "month": 9,
+        "rainfall": 27.8,
+        "year": 1392
+    },
+    {
+        "month": 10,
+        "rainfall": 33.7,
+        "year": 1392
+    },
+    {
+        "month": 11,
+        "rainfall": 28.6,
+        "year": 1392
+    },
+    {
+        "month": 12,
+        "rainfall": 14.3,
+        "year": 1392
+    },
+    {
+        "month": 1,
+        "rainfall": 27.5,
+        "year": 1393
+    },
+    {
+        "month": 2,
+        "rainfall": 18.2,
+        "year": 1393
+    },
+    {
+        "month": 3,
+        "rainfall": 15.8,
+        "year": 1393
+    },
+    {
+        "month": 4,
+        "rainfall": 12.3,
+        "year": 1393
+    },
+    {
+        "month": 5,
+        "rainfall": 20.9,
+        "year": 1393
+    },
+    {
+        "month": 6,
+        "rainfall": 7.9,
+        "year": 1393
+    },
+    {
+        "month": 7,
+        "rainfall": 10.2,
+        "year": 1393
+    },
+    {
+        "month": 8,
+        "rainfall": 30.3,
+        "year": 1393
+    },
+    {
+        "month": 9,
+        "rainfall": 19.6,
+        "year": 1393
+    },
+    {
+        "month": 10,
+        "rainfall": 20.8,
+        "year": 1393
+    },
+    {
+        "month": 11,
+        "rainfall": 29.2,
+        "year": 1393
+    },
+    {
+        "month": 12,
+        "rainfall": 15.5,
+        "year": 1393
     }
 ]
