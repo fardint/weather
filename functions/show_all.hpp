@@ -1,3 +1,3 @@
 ﻿#pragma once
 
-void showEntry(const std::string& filename);
+void showAll(const std::string& filename);

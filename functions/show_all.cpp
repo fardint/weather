@@ -1,21 +1,15 @@
 ﻿#include <iostream>
 #include <fstream>
 #include "../include/json.hpp"
-#include "show_entry.hpp"
+#include "show_all.hpp"
 
 using json = nlohmann::json;
 
-void showEntry(const std::string& filename) {
-    int year, month;
-    std::cout << "Enter year (1390 to 1400): ";
-    std::cin >> year;
-
-    std::cout << "Enter month (1 to 12): ";
-    std::cin >> month;
-
+void showAll(const std::string& filename) {
     // Load data
     std::ifstream inFile(filename);
     json data = json::array();
+    
     if (inFile.is_open()) {
         try {
             inFile >> data;
@@ -23,21 +17,21 @@ void showEntry(const std::string& filename) {
             std::cerr << "Error reading file or invalid JSON.\n";
             return;
         }
+    } else {
+        std::cerr << "Unable to open file.\n";
+        return;
     }
 
-    bool found = false;
+    if (data.empty()) {
+        std::cout << "No data available.\n";
+        return;
+    }
 
-    // Search for entry
+    // Display all entries
+    std::cout << "All Rainfall Data:\n";
     for (const auto& entry : data) {
-        if (entry["year"] == year && entry["month"] == month) {
-            std::cout << "Rainfall in " << year << "/" << month
-                      << ": " << entry["rainfall"] << " mm\n";
-            found = true;
-            break;
-        }
-    }
-
-    if (!found) {
-        std::cout << "No data found for " << year << "/" << month << ".\n";
+        std::cout << "Year: " << entry["year"]
+                  << ", Month: " << entry["month"]
+                  << ", Rainfall: " << entry["rainfall"] << " mm\n";
     }
 }
